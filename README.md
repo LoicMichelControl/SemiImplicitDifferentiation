@@ -1,6 +1,6 @@
 # A note about high-order semi-implicit differentiation: application to a numerical integration scheme with Taylor-based compensated error
 
-This code is associated to the arXiv paper $< >$ and illustrates some numerical results of a third order semi-implicit differentiator, based on the implicit discretization technique [1] and last developments [2] for which a Taylor refinement algorithm allows reducing the estimation error throughout the differentiation estimation.
+This code is associated to the arXiv paper <https://arxiv.org/abs/2408.00497> and illustrates some numerical results of a third order semi-implicit differentiator, based on the implicit discretization technique [1] and last developments [2] for which a Taylor refinement algorithm allows reducing the estimation error throughout the differentiation estimation.
 
 Below is given a very short and simplified introduction, please refer to the paper for a complete description.
 
@@ -87,7 +87,7 @@ The proposed numerical scheme provides a slightly reduced error compared with th
 [1] V. Acary, B. Brogliato, and Y. Orlov. Chattering-free digital sliding-mode control with state observer and disturbance rejection. IEEE Trans. on Automatic Control, 57(5):1087–1101, 2012.
 
 
-[2] Loïc Michel, Malek Ghanes, Yannick Aoustin, and Jean-Pierre Barbot. An interconnected discrete time cascaded semi-implicit differentiation. 17th International Workshop on Variable Structure Systems (VSS2024). Accepted, April 2024. <https://hal.science/hal-04564290/>
+[2] Loïc Michel, Malek Ghanes, Yannick Aoustin, and Jean-Pierre Barbot. An interconnected discrete time cascaded semi-implicit differentiation. 17th International Workshop on Variable Structure Systems (VSS2024), Accepted, April 2024. <https://hal.science/hal-04564290/>
 
 [3] Ronald E Mickens. Nonstandard Finite Difference Models of Differential Equations. WORLD SCIENTIFIC, 1993.
 
