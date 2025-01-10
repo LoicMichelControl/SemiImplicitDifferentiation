@@ -58,10 +58,10 @@ Our proposed differentiation method can be associated to the nonstandard finite-
 An NSFD scheme including the third order differentiator can be written:
 
 $$
-\begin{array}{l}
-z_1^+  = z_1 + \psi \, \mathfrak{D}_{f}^{(1)}(z, z^+, \hat{y} ) \\
-\hat{y} = z_1
-\end{array}, \right. \, k \in \mathbb{N}, \, y(0) = y_0 \quad \mathrm{and} \quad \psi = h + O(h^2)
+\left \lbrace \begin{array}{l}
+z_1^+  = z_1 + \psi  \mathfrak{D}_{f}^{(1)}(z, z^+, \hat{y} ) \\
+\hat{y} = z_1 \\
+\end{array} \right., \quad k \in \mathbb{N}, \quad y(0) = y_0 \quad \mathrm{and} \quad \psi = h + O(h^2)
 $$
 
 where the SIHD3 differentiator is used to estimate the $f$ part of the ODE and $\psi = h + O(h^2)$ that do satisfy $h \rightarrow 0$ according to the NSFD rules.
